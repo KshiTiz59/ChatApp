@@ -1,0 +1,27 @@
+.home_bg{
+    background-image: url(https://images.hdqwalls.com/download/friends-4k-fl-3840x2160.jpg);
+    height: 93vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.home-message-icon{
+  margin-left: 10px;
+  display: inline-block;  
+}
+.hom{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s  infinite;
+    
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+50%{
+    width: 8ch;
+}
+}

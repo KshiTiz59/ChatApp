@@ -1,0 +1,25 @@
+.login_bg{
+    background-image: url(https://images.unsplash.com/photo-1541956197774-1c6c637c8776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFuZ2luZyUyMGxpZ2h0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    height: 93vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    }
+    .cc{
+        width: 550px;
+        height: 500px;
+        position: relative;
+        box-shadow: inset 20px 20px 20px rgba(0, 0 , 0 , .05),
+        25px 35px 20px rgba(0,0,0,.05),
+        25px 30px 30px rgba(0,0,0,.05),
+        inset -20px -20px 25px rgba(255, 255 , 255 , .9); 
+transition: 0.5s;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 52% 48% 33% 67% / 38% 45% 55% 62%;
+    }
+    .cc:hover{
+        border-radius: 50%;
+    }

@@ -1,0 +1,52 @@
+.signup_bg{
+    background-image: url(https://images.pexels.com/photos/3127880/pexels-photo-3127880.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 93vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    }
+.text-center{
+    margin-bottom: 10px;
+}
+    .signup-profile
+    {
+width: 100px;
+height: 100px;
+margin: 0 auto ;
+position: relative;
+    }
+    .signup_profile_pic{
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid gray;
+        object-fit: cover;
+        height: 100px;
+    }
+    .add-picture-icon{
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        color: green;
+        background: white;
+        cursor: pointer;
+        z-index: 99;
+    }
+    .xx{
+        width: 700px;
+        height: 700px;
+        position: relative;
+        box-shadow: inset 20px 20px 20px rgba(0, 0 , 0 , .05),
+        25px 35px 20px rgba(0,0,0,.05),
+        25px 30px 30px rgba(0,0,0,.05),
+        inset -20px -20px 25px rgba(255, 255 , 255 , .9); 
+transition: 0.5s;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 52% 48% 33% 67% / 38% 45% 55% 62%;
+    }
+    .xx:hover{
+        border-radius: 50%;
+     
+    }
